@@ -20,4 +20,4 @@ if __name__ == '__main__':
         a *= (2*n) / ((2*n + 2)**2) * (2*n + 1)
         S += a
         n += 1
-    print(f"EI({x}) = {EULER + math.log(math.fabs(x)) + S}")
+    print(f"Chi({x}) = {EULER + math.log(math.fabs(x)) + S}")
